@@ -1,0 +1,18 @@
+thead,td{
+  border: 1px solid black;
+}
+h2,h3,form,table{
+  display: flex;
+  justify-content: center;
+}
+form{
+  margin-bottom: 20px;
+}
+th{
+  font-size: 30px;
+  margin-right: 10px;
+}
+body{
+  background-color: lightblue;
+  font-family: sans-serif;
+}
