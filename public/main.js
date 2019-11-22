@@ -15,7 +15,6 @@ let update= document.getElementsByClassName('update')
 
 Array.from(update).forEach(function(element) {
       element.addEventListener('click', function(){
-        alert('hey');
         const bookName = this.parentNode.parentNode.childNodes[1].innerText
         const category = this.parentNode.parentNode.childNodes[3].innerText
         const price = parseFloat(this.parentNode.parentNode.childNodes[5].innerText)
